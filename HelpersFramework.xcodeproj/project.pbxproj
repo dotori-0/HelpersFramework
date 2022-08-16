@@ -13,6 +13,7 @@
 		0A0162B728ABC50B0069C4AF /* HelpersFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0162A928ABC50B0069C4AF /* HelpersFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A0162C128ABC5D00069C4AF /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0162C028ABC5D00069C4AF /* ReusableView.swift */; };
 		0A0162C328ABC6150069C4AF /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0162C228ABC6150069C4AF /* UIViewController+Extension.swift */; };
+		0A0162C528ABCE620069C4AF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0162C428ABCE620069C4AF /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		0A0162B528ABC50B0069C4AF /* HelpersFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpersFrameworkTests.swift; sourceTree = "<group>"; };
 		0A0162C028ABC5D00069C4AF /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		0A0162C228ABC6150069C4AF /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0A0162C428ABCE620069C4AF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				0A0162AA28ABC50B0069C4AF /* HelpersFramework.docc */,
 				0A0162C028ABC5D00069C4AF /* ReusableView.swift */,
 				0A0162C228ABC6150069C4AF /* UIViewController+Extension.swift */,
+				0A0162C428ABCE620069C4AF /* UIView+Extension.swift */,
 			);
 			path = HelpersFramework;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			files = (
 				0A0162AB28ABC50B0069C4AF /* HelpersFramework.docc in Sources */,
 				0A0162C128ABC5D00069C4AF /* ReusableView.swift in Sources */,
+				0A0162C528ABCE620069C4AF /* UIView+Extension.swift in Sources */,
 				0A0162C328ABC6150069C4AF /* UIViewController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

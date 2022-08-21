@@ -13,6 +13,7 @@ public protocol ReusableView {
 
 extension ReusableView {
     public static var reuseIdentifier: String {
-        return String(describing: Self.self)
+//        return String(describing: Self.self)
+        return String(describing: self)
     }
 }
